@@ -20,7 +20,6 @@ const db = knex({
     }
 });
 
-db.connect();
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
